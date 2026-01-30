@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rohit | Content Creator & Video Editor</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#ffffff,#eafff3);
+    overflow-x:hidden;
+}
+
+/* Animated Doodles */
+body::before{
+    content:"";
+    position:fixed;
+    width:100%;
+    height:100%;
+    background-image:
+    radial-gradient(circle at 20% 30%, #b2f7d6 40px, transparent 41px),
+    radial-gradient(circle at 80% 70%, #90ee90 50px, transparent 51px),
+    radial-gradient(circle at 60% 20%, #caffbf 35px, transparent 36px);
+    z-index:-1;
+    animation:floatBg 10s infinite alternate ease-in-out;
+}
+
+@keyframes floatBg{
+    from{transform:translateY(0px);}
+    to{transform:translateY(-30px);}
+}
+
+/* Navbar */
+nav{
+    display:flex;
+    justify-content:space-between;
+    padding:20px 50px;
+    background:rgba(255,255,255,0.4);
+    backdrop-filter:blur(20px);
+    position:sticky;
+    top:0;
+}
+
+nav a{
+    text-decoration:none;
+    margin-left:20px;
+    font-weight:600;
+    color:#1a1a1a;
+}
+
+/* Glass Card */
+.glass{
+    background:rgba(255,255,255,0.5);
+    backdrop-filter:blur(20px);
+    border-radius:25px;
+    padding:40px;
+    margin:40px;
+    box-shadow:0 10px 40px rgba(0,0,0,0.1);
+}
+
+/* Hero */
+.hero{
+    text-align:center;
+    padding:100px 20px;
+}
+
+.hero h1{
+    font-size:42px;
+    font-weight:700;
+}
+
+.hero p{
+    margin-top:20px;
+    font-size:18px;
+}
+
+.btn{
+    padding:12px 28px;
+    border-radius:30px;
+    border:none;
+    margin:15px;
+    font-weight:600;
+    cursor:pointer;
+    background:#90ee90;
+    transition:0.3s;
+}
+
+.btn:hover{
+    transform:scale(1.1);
+}
+
+/* Services */
+.services{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:30px;
+    padding:40px;
+}
+
+.tile{
+    background:rgba(255,255,255,0.6);
+    backdrop-filter:blur(20px);
+    border-radius:25px;
+    padding:30px;
+    text-align:center;
+    transition:0.4s;
+}
+
+.tile:hover{
+    transform:translateY(-10px);
+}
+
+.tile h3{
+    margin-bottom:15px;
+}
+
+/* Section Title */
+.section-title{
+    text-align:center;
+    font-size:32px;
+    margin-top:40px;
+    font-weight:700;
+}
+
+/* Floating WhatsApp */
+.whatsapp-float{
+    position:fixed;
+    bottom:25px;
+    right:25px;
+    background:#25D366;
+    color:white;
+    padding:16px 20px;
+    border-radius:50%;
+    font-size:22px;
+    text-decoration:none;
+    box-shadow:0 10px 30px rgba(0,0,0,0.2);
+}
+
+/* Footer */
+footer{
+    text-align:center;
+    padding:30px;
+    font-size:14px;
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+    <div><strong>Rohit</strong></div>
+    <div>
+        <a href="#about">About</a>
+        <a href="mailto:rk045489@gmail.com">Email</a>
+        <a href="https://wa.me/919060804480?text=Hi%20Rohit%2C%20I%20want%20to%20hire%20you">Hire Me</a>
+    </div>
+</nav>
+
+<section class="hero glass">
+    <h1>Comedy, Emotion & Viral Storytelling — All in One Frame.</h1>
+    <p>I help brands and creators grow through engaging short-form videos, storytelling reels, and high-retention edits.</p>
+    
+    <a href="mailto:rk045489@gmail.com"><button class="btn">Work With Me</button></a>
+    <a href="https://wa.me/919060804480?text=Hi%20Rohit%2C%20I%20want%20to%20hire%20you"><button class="btn">Hire Me</button></a>
+</section>
+
+<section id="about" class="glass">
+    <h2 class="section-title">About Me</h2>
+    <p style="margin-top:20px;">
+    I’m Rohit, a content creator and video editor who turns simple ideas into scroll-stopping stories.
+    My niche? Comedy, relatable content, emotional storytelling & viral Instagram reels.
+    I don’t just edit videos — I build moments people remember.
+    </p>
+    <p style="margin-top:15px;">Started seriously from 1 Jan 2026.</p>
+    <p style="margin-top:15px;"><strong>Email:</strong> <a href="mailto:rk045489@gmail.com">rk045489@gmail.com</a></p>
+    <p><strong>Phone:</strong> <a href="tel:9060804480">9060804480</a></p>
+    <p><strong>Address:</strong> Pakur, Jharkhand (India)</p>
+</section>
+
+<h2 class="section-title">My Services</h2>
+
+<div class="services">
+
+    <div class="tile">
+        <h3>Content Creation</h3>
+        <p>Instagram Reels, Storytelling Videos, Comedy Skits, Love Story Based Content</p>
+        <a href="https://wa.me/919060804480?text=Hi%20Rohit%2C%20I%20want%20to%20book%20Content%20Creation%20service"><button class="btn">Book Now</button></a>
+    </div>
+
+    <div class="tile">
+        <h3>Video Editing</h3>
+        <p>High-retention Editing, Cinematic Cuts, Hook Optimization, Subtitle Design</p>
+        <a href="https://wa.me/919060804480?text=Hi%20Rohit%2C%20I%20want%20Video%20Editing%20service"><button class="btn">Book Now</button></a>
+    </div>
+
+    <div class="tile">
+        <h3>Content Growth Strategy</h3>
+        <p>Niche Positioning, Hook Strategy, Caption Psychology, Hashtag Planning</p>
+        <a href="https://wa.me/919060804480?text=Hi%20Rohit%2C%20I%20want%20Content%20Growth%20Strategy"><button class="btn">Book Now</button></a>
+    </div>
+
+    <div class="tile">
+        <h3>Book Consult With Me</h3>
+        <p>1-on-1 Content Growth & Strategy Consultation</p>
+        <a href="https://wa.me/919060804480?text=Hi%20Rohit%2C%20I%20want%20to%20book%20a%20consultation"><button class="btn">Book Consult</button></a>
+    </div>
+
+</div>
+
+<section class="glass">
+    <h2 class="section-title">My Philosophy</h2>
+    <p style="margin-top:20px;">
+    Viral content is not luck. It’s strategy + emotion + timing.
+    I focus on hook, retention, relatability, and storytelling structure to make content perform.
+    </p>
+</section>
+
+<footer>
+© 2026 Rohit | Making Content That Feels.
+</footer>
+
+<a href="https://wa.me/919060804480" class="whatsapp-float">💬</a>
+
+</body>
+</html>
